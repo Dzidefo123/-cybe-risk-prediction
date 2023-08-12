@@ -8,7 +8,6 @@ from sklearn.linear_model import LogisticRegression
 with open('saved_steps1.pkl', 'rb') as file:
     data = pickle.load(file)
     
-
 model_loaded = data['model']
 le_industry = data['le_industry']
 le_threats = data['le_threats']
