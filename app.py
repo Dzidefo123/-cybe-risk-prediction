@@ -36,7 +36,7 @@ st.sidebar.image('3D_Animation_Style_CAT_EYE_123.jpg', width=500)
 
 
 def main():
-    st.title('Cyber Risk Probability simulation App for CatEye')
+    st.title('Cyber Risk Probability simulation & Fraud Prvention App')
 
     # Create interactive widgets
     industry_encoded = st.selectbox('Select Industry', le_industry.classes_)
